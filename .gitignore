@@ -1,0 +1,39 @@
+# General
+.DS_Store
+
+# Environment files
+.env
+.env.*
+!.env.example
+
+# Credentials and tokens
+.git-credentials
+.netrc
+.npmrc
+.pypirc
+.docker/config.json
+.aws/
+.kube/
+
+# Private keys and certs
+*.pem
+*.key
+*.p12
+*.p8
+*.crt
+*.cer
+*.der
+*.pfx
+*.jks
+*.keystore
+id_rsa
+id_dsa
+id_ecdsa
+id_ed25519
+
+# Shell histories
+.zsh_history
+.bash_history
+
+# Local config overrides
+codex/config.local.toml
